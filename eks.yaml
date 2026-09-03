@@ -6,9 +6,8 @@ metadata:
   region: us-east-1
 
 nodeGroups:
-  - name: ng-1
+  - name: expense
     instanceType: m5.large
-    desiredCapacity: 10
-    volumeSize: 80
+    desiredCapacity: 3
     ssh:
       allow: true # will use ~/.ssh/id_rsa.pub as the default ssh key
